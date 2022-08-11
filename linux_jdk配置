@@ -8,3 +8,8 @@ export JAVA_HOME PATH
 
 3、执行重新加载环境变量：source /etc/profile
 4、测试是否配置成功：java --version
+5、设置JVM网络配置（开启代理）
+  opt/java-8/jre/lib/net.properties
+  java.net.useSystemProxies=true
+  
+
