@@ -13,3 +13,6 @@ npm get registry
 npm install npm -g
 # 如果要指定版本，可以通过@指定版本
 npm install -g npm@8.19.1
+
+####修改vue.config.js配置文件
+lintOnSave:false //关闭语法检查
